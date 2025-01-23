@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    background-color: #59b7ff;
+    padding: 30px;
+    border-radius: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.titulo {
+    font-family: "Dancing Script", serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.icone-sol {
+    margin-left: 10px; 
+    font-size: 32px;
+    color: #ffcc00; 
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-cidade {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    width: 200px;
+}
+
+.btn-buscar {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #065c9e;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-buscar:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.resultado h2 {
+    margin-bottom: 10px;
+}
+
+.resultado p {
+    margin: 5px 0;
+}
